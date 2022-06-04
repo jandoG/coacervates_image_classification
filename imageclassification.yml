@@ -1,0 +1,20 @@
+name: imageclassification
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - numpy
+  - pip
+  - jupyter
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - tqdm
+  - pandas
+  - seaborn
+  - pip:
+    - mahotas
+    - tifffile
+    - opencv-contrib-python
